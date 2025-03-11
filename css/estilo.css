@@ -1,0 +1,101 @@
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header form {
+    margin-left: auto; /* Empurra o formulário de pesquisa para a direita */
+}
+
+
+header img {
+    height: 70px;
+    width: 70px;
+}
+
+/* Banner */
+#section-banners img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover; /* Faz a imagem cobrir toda a área do banner */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+    transition: transform 0.3s ease-in-out; /* Efeito de zoom suave */
+}
+
+#section-banners img:hover {
+    transform: scale(1.1); /* Aumenta a imagem no hover */
+}
+
+/* Produtos vendidos */
+#section-vendidos {
+    text-align: center;
+    padding: 20px;
+}
+
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+#section-vendidos .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Botão */
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+#voltar-topo.show {
+    display: block; /* Exibe o botão quando rolado para baixo */
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#section-login{
+    margin-top: 100px;
+    }
+    #section-login h1 {
+    text-align: center;
+    }
+    #section-login input {
+        width: 100%;
+    }
+
+    #section-cadastro {
+        padding: 5px;
+        text-align: center;
+        background-color: #fff;
+        }
+        #form-cadastrar {
+        padding: 50px;
+        display: none;
+        }
+        
+        #form-cadastrar {
+            padding: 50px;
+            display:none;
+            }
